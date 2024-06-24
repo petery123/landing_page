@@ -37,7 +37,7 @@ footer{
     flex-flow: nowrap column;
     box-sizing: content-box;
     margin: 0 280px;
-    max-width: 1500px;
+    /* max-width: 1500px; */
 }
 
 .top{
@@ -78,7 +78,7 @@ h1{
 a,
 .left_side p{
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a{
