@@ -59,11 +59,11 @@ header{
 .right_side{
     background-color: #485a72;
     height: 200px;
-    width: 500px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 }
 
 h1{
@@ -94,9 +94,46 @@ a{
     font-size: 17px;
 }
 
+.body .first{
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 40px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box{
+    border: 6px solid #3882F6;
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.icon p{
+    font-size: 25px;
+}
+
 footer{
     display: flex;
     justify-content: center;
     padding: 40px 0;
 }
-
